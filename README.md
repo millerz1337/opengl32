@@ -8,13 +8,23 @@ Client-side OpenGL mod for Minecraft 1.8.9 (LWJGL 2). Injects into the game proc
 - **NoHurtCam** - removes the camera shake on damage
 - **ViewModel** - negative Z-axis rotations are dropped, so arrows render flat on the ground
 - **Xray** - depth test forced to ALWAYS outside the viewmodel/GUI passes
-- Toggle menu (DELETE by default) with a small settings panel for rebinding the menu key and the Xray hotkey
+- Toggle menu (DELETE by default) with a settings panel for rebinding the menu key and the Xray hotkey
+
+## Screenshots
+
+![Menu](https://raw.githubusercontent.com/millerz1337/opengl32/d971444e1be807d42ffd808f2dec13a930080180/assets/images/Screenshot_3.png)
+
+![Menu](https://raw.githubusercontent.com/millerz1337/opengl32/d971444e1be807d42ffd808f2dec13a930080180/assets/images/Screenshot_2.png)
+
+![Menu](https://raw.githubusercontent.com/millerz1337/opengl32/d971444e1be807d42ffd808f2dec13a930080180/assets/images/2026-08-19_19.50.31.png)
 
 ## Usage
 
 1. Build or grab the DLL from `x64\Release\`.
 2. Load it into the game (injector of your choice).
 3. Open the menu with DELETE and toggle whatever you want.
+
+Right-click anywhere on the menu to open the Settings panel, where you can rebind the menu key and the Xray hotkey.
 
 Settings persist to `%LOCALAPPDATA%\Leet\config.ini`, so toggles and keybinds survive restarts.
 
@@ -27,9 +37,6 @@ Settings persist to `%LOCALAPPDATA%\Leet\config.ini`, so toggles and keybinds su
 msbuild src\cheat.vcxproj /p:Configuration=Release /p:Platform=x64
 ```
 
-## Notes
+## License
 
-- Windows 10/11 x64 only. The game needs to be running with an OpenGL context before the DLL is injected.
-- Hooks are only installed while a module that uses them is enabled, the menu hook (wglSwapBuffers) stays active the whole time.
-- Because it patches code in another process, antivirus software will likely flag it. Add an exclusion for the folder you run it from.
-- Tested on 1.8.9 with Java 8. Other LWJGL 2 versions *should* work but nothing is guaranteed.
+MIT
