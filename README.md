@@ -1,4 +1,4 @@
-# Monarch Lite
+# opengl32
 
 Client-side OpenGL mod for Minecraft 1.8.9 (LWJGL 2). Injects into the game process and hooks a handful of GL functions from opengl32.dll at runtime. No config files to fiddle with, everything is toggled from the in-game menu.
 
