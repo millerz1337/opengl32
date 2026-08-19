@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="src\cheat.vcxproj" Id="75678245-6098-400a-89df-801698a915ae" />
+</Solution>

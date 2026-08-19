@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\framework.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\globals.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\pch.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\settings.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui_impl_win32.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui_impl_opengl3.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui_impl_opengl3_loader.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imconfig.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui_internal.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imstb_rectpack.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imstb_textedit.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imstb_truetype.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\MinHook.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\buffer.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\trampoline.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\hde32.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\hde64.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\table32.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\table64.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\pstdint.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\settings.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\dllmain.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\buffer.c">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\hde32.c">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\hde64.c">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\hook.c">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\trampoline.c">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui_draw.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui_impl_win32.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui_impl_opengl3.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui_tables.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui_widgets.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
