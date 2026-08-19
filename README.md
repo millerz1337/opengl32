@@ -16,7 +16,7 @@ Client-side OpenGL mod for Minecraft 1.8.9 (LWJGL 2). Injects into the game proc
 
 ![Menu](https://raw.githubusercontent.com/millerz1337/opengl32/d971444e1be807d42ffd808f2dec13a930080180/assets/images/Screenshot_2.png)
 
-![Menu](https://raw.githubusercontent.com/millerz1337/opengl32/d971444e1be807d42ffd808f2dec13a930080180/assets/images/2026-08-19_19.50.31.png)
+![Görsel](https://raw.githubusercontent.com/millerz1337/opengl32/81c11401efb7f772d61dfe737912e0ae9bda656b/assets/images/Screenshot_1.png)
 
 ## Usage
 
